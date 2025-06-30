@@ -1,20 +1,19 @@
-// ✅ src/firebase.ts
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+// lib/firebase.ts
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+// 필요 시: import { getAuth } from 'firebase/auth'; 등 추가
 
-// Firebase 구성 (네가 준 값 그대로)
 const firebaseConfig = {
-  apiKey: "AIzaSyBPl2zWxfbnTL8ELgSvsw2JMVMwcWAB_Ow",
-  authDomain: "yongs-dining.firebaseapp.com",
-  projectId: "yongs-dining",
-  storageBucket: "yongs-dining.firebasestorage.app",
-  messagingSenderId: "165881662736",
-  appId: "1:165881662736:web:da1f6482af7002fa3be995",
-  measurementId: "G-1XVZNHZ8DM",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// Firebase 앱 초기화
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-// Firestore 인스턴스 export
-export const db = getFirestore(app);
+export { db };
