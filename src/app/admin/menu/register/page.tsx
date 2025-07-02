@@ -1,10 +1,11 @@
+
+
 'use client';
 
-// ✅ src/app/admin/menu/register/page.tsx
+export const dynamic = 'force-dynamic';
 
 import MenuForm from '@/components/menu/MenuForm';
 import MenuList from '@/components/menu/MenuList';
-
 
 export default function MenuRegisterPage() {
   return (
