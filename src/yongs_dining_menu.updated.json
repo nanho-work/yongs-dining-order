@@ -1,0 +1,117 @@
+[
+  {
+    "name": "리얼두부스팸프라이",
+    "image": "main_real.png",
+    "category": "main"
+  },
+  {
+    "name": "리얼한우두부전골",
+    "image": "main_spam.png",
+    "category": "main"
+  },
+  {
+    "name": "수제두부보쌈",
+    "image": "main_bossam.jpeg",
+    "category": "main"
+  },
+  {
+    "name": "얼큰두부짜글이",
+    "image": "main_jaeggri.png",
+    "category": "main"
+  },
+  {
+    "name": "통두부김치찌개",
+    "image": "main_kimchi.png",
+    "category": "main"
+  },
+  {
+    "name": "폭탄두부두루치기",
+    "image": "main_doruchigi.png",
+    "category": "main"
+  },
+  {
+    "name": "해장두부전골",
+    "image": "main_haejang.png",
+    "category": "main"
+  },
+  {
+    "name": "참치크래커",
+    "image": "side-tuna.png",
+    "category": "side"
+  },
+  {
+    "name": "해장육사발",
+    "image": "side-muk.png",
+    "category": "side"
+  },
+  {
+    "name": "호떡아이스크림",
+    "image": "side-kanape.png",
+    "category": "side"
+  },
+  {
+    "name": "강원도돼지석판직화구이",
+    "image": "sub_main_gangwon.png",
+    "category": "sub"
+  },
+  {
+    "name": "대포항오징어후추지숙대파",
+    "image": "sub_main_daepo.png",
+    "category": "sub"
+  },
+  {
+    "name": "목살갈비쌈샐러드",
+    "image": "sub_main_moksal.png",
+    "category": "sub"
+  },
+  {
+    "name": "부산어묵탕",
+    "image": "sub_main_busan.png",
+    "category": "sub"
+  },
+  {
+    "name": "홍콩눈꽃교자",
+    "image": "sub_main_hongkong.png",
+    "category": "sub"
+  },
+  {
+    "name": "들기름두부구이",
+    "image": "side-gui.png",
+    "category": "side"
+  },
+  {
+    "name": "매운타카나페",
+    "image": "side-icd.png",
+    "category": "side"
+  },
+  {
+    "name": "두부전골",
+    "image": "set-real.png",
+    "category": "set"
+  },
+  {
+    "name": "주류_진로",
+    "image": "alcohol_jinro.png",
+    "category": "alcohol"
+  },
+  {
+    "name": "주류_청하",
+    "image": "alcohol_cheongha.png",
+    "category": "alcohol"
+  },
+  {
+    "name": "주류_카스",
+    "image": "beer_cass.png",
+    "category": "beer"
+  },
+  {
+    "name": "하이볼_매실",
+    "image": "highball_maesil.jpeg",
+    "category": "highball"
+  },
+  {
+    "name": "하이볼_위스키",
+    "image": "highball_whiskey.jpeg",
+    "category": "highball"
+  }
+]

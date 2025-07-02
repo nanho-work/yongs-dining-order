@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* 이미지 */}
       <section className="flex justify-center py-10">
         <img
-          src="/main.jpg"
+          src="/side-muk.png"
           alt="대표 떡볶이 이미지"
           className="w-[400px] h-auto rounded-xl shadow"
         />
