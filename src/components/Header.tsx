@@ -10,9 +10,11 @@ export default function Header() {
           <span className="text-xl font-bold text-red-600">짱구즉석떡볶이</span>
         </Link>
         <nav className="flex gap-6 text-sm font-medium text-gray-700">
-          <Link href="#menu" className="hover:text-red-500">메뉴</Link>
-          <Link href="#about" className="hover:text-red-500">브랜드 소개</Link>
-          <Link href="#location" className="hover:text-red-500">위치</Link>
+          {/* 👉 사용자용 오더 페이지 */}
+          <Link href="/order/menu" className="hover:text-red-500">오더</Link>
+
+          {/* 👉 관리자용 메뉴 등록 페이지 */}
+          <Link href="/admin/menu/register" className="hover:text-red-500">관리자</Link>
         </nav>
       </div>
     </header>
