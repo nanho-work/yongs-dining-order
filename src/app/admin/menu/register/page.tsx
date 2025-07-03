@@ -7,6 +7,7 @@ export const dynamic = 'force-dynamic';
 import MenuForm from '@/components/menu/MenuForm';
 import MenuList from '@/components/menu/MenuList';
 
+
 export default function MenuRegisterPage() {
   return (
     <main className="p-6 mx-auto">
